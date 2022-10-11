@@ -14,13 +14,13 @@ macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
 #binding-cells = <0>;
-bindings = <&sk LCMD>, <&sk RCTRL>, <&sk LSHIFT>, <&kp 4>;
+bindings = <&sk RCMD>, <&sk RCTRL>, <&sk RSHIFT>, <&kp 4>;
 };
 macro_lock: macro_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_lock";
 #binding-cells = <0>;
-bindings = <&sk LCMD>, <&sk RCTRL>, <&kp Q>;
+bindings = <&sk RCMD>, <&sk RCTRL>, <&kp Q>;
 };
 macro_cmdtab: macro_cmdtab{
 compatible = "zmk,behavior-macro";
